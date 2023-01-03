@@ -50,7 +50,7 @@ table {
 
 /* GENERAL */
 body {
-    background-image: url(/img/bg.jpg);
+    background-color: #39593E;
     background-repeat: no-repeat;
 }
 
@@ -64,8 +64,8 @@ body {
 
 /* MAIN CONTENT */
 .main-content {
-    background-color: white;
-    opacity: 0.15;
+    background-image: url(/img/bg2.jpg);
+    opacity: 1;
     height: 80vh;
     width: 30vw;
     border-radius: 10px 0px 0px 10px;
