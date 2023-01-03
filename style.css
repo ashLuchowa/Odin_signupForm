@@ -61,7 +61,7 @@ table {
 body {
     background-color: var(--main-bg-color);
     background-repeat: no-repeat;
-    font-family: sans-serif;
+    font-family: Helvetica, sans-serif;
 }
 
 .flex-container {
@@ -78,11 +78,12 @@ body {
     opacity: 1;
     height: 80vh;
     width: 20vw;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 10px;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
+    margin-right: 15px;
 }
 
 #odin-logo {
@@ -91,6 +92,15 @@ body {
     padding: 4vh;
     margin-top: 90px;
     border-radius: 1vh;
+}
+
+#logo p {
+    font-size: 50px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
 }
 
 #left-para {
@@ -111,7 +121,7 @@ body {
     opacity: 1;
     height: 80vh;
     min-width: 40vw;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 10px;
     font-size: var(--main-font-size);
 }
 
