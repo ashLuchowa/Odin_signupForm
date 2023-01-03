@@ -111,12 +111,18 @@ body {
 }
 
 .main-form {
-    height: 300px;
+    height: auto;
     border: 1px solid red;
+}
+
+.right-content p {
+    line-height: 22px;
 }
 
 .main-form input {
     border: 1px solid rgb(197, 197, 197);
+    margin-right: 50px;
+    margin-bottom: 15px;
 }
 
 .main-form label {
@@ -127,6 +133,7 @@ body {
 legend {
     font-weight: bold;
     font-size: 18px;
+    margin-bottom: 20px;
 }
 
 #top-right-content p {
@@ -137,4 +144,14 @@ legend {
 
 #top-right-content p ~ p {
     margin: 20px 0px 60px 0px;
+}
+
+.top-form, .mid-form, .bot-form {
+    display: flex;
+}
+
+.top-form label,
+.mid-form label,
+.bot-form label {
+    display: flex;
 }
