@@ -52,7 +52,7 @@ table {
 :root {
     --main-bg-color: #000;
     --border-color: rgb(218, 218, 218);
-    --main-font-size: 16px;
+    --main-font-size: 18px;
     --label-font-size: 12px;
     --mid-font-size: 14px;
     --main-green-color: #5C735D;
@@ -117,7 +117,7 @@ body {
 
 .main-form {
     height: auto;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .right-content p {
@@ -150,11 +150,11 @@ legend {
 
 #top-right-content p {
     font-weight: bold;
-    max-width: 650px;
+    max-width: 750px;
     margin: 90px 0px 0px 0px;
 }
 
-#top-right-content p ~ p {
+#top-right-content p + p {
     margin: 20px 0px 60px 0px;
 }
 
@@ -169,9 +169,14 @@ legend {
     margin-bottom: 5px;
 }
 
+.bot-form {
+    margin-bottom: 20px;
+}
+
 .bot-right-content {
     font-size: var(--mid-font-size);
-    padding: 0px 30px;
+    margin-left: 30px;
+    font-weight: bold;
 }
 
 .bot-right-content button {
@@ -181,10 +186,20 @@ legend {
     height: 45px;
     width: 200px;
     border-radius: 7px;
-    font-weight: bold;
     font-size: var(--mid-font-size);
     cursor: pointer;
-    margin-bottom: 5px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.bot-right-content a {
+    color: var(--main-green-color);
+    text-decoration: none;
+    font-size: var(--mid-font-size);
+}
+
+.bot-right-content p {
+    margin: 0px;
 }
 
 .bot-right-content button:hover {

@@ -30,52 +30,55 @@
                 </p>
                 <p>You <i>know</i> you want to.</p>
 
-                <form action="" method="get" class="main-form">
+                <form class="main-form">
                     <fieldset>
                         <legend>Let's do this!</legend>
 
                         <div class="top-form">
                             <div>
                                 <label for="first_name">First Name</label>
-                                <input type="text" id="first_name">
+                                <input type="text" id="first_name" name="first_name" required>
                             </div>
                             <div>
                                 <label for="last_name">Last Name</label>
-                                <input type="text" id="last_name">
+                                <input type="text" id="last_name" name="last_name">
                             </div>
                         </div> <!--top-form -->
 
                         <div class="mid-form">
                             <div>
                                 <label for="email">Email</label>
-                                <input type="email" id="email">
+                                <input type="email" id="email" name="email">
                             </div>
                             <div>
                                 <label for="phone">Phone Number</label>
-                                <input type="tel" id="phone">
+                                <input type="tel" id="phone" name="phone">
                             </div>
                         </div> <!-- mid-form -->
 
                         <div class="bot-form">
                             <div>
                                 <label for="password1">Password</label>
-                                <input type="password" id="password1">
+                                <input type="password" id="password1" name="password1">
                             </div>
                             <div>
                                 <label for="password2">Confirm Password</label>
-                                <input type="password" id="password2">
+                                <input type="password" id="password2" name="password2">
                             </div>
                         </div> <!-- bot-form -->
                     </fieldset>
-                </form>
-            </div> <!-- top-right-content -->
 
-            <div class="bot-right-content">
-                <form action="">
-                    <button type="submit">Create Account</button>
+                </div> <!-- top-right-content -->
+
+                    <div class="bot-right-content">
+                        <button type="submit">Create Account</button>
+                        <p>Already have an account? <a href="#">Log in</a></p>
+                    </div> <!-- bot-right-content -->
+
                 </form>
-                <p>Already have an account? <a href="#">Log in</a></p>
-            </div>
+            
+
+
 
         </div> <!-- right-content -->
 
