@@ -102,3 +102,7 @@ body {
     width: 30vw;
     border-radius: 0px 10px 10px 0px;
 }
+
+fieldset {
+    border: 1px solid red;
+}
