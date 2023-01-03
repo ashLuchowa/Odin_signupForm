@@ -62,17 +62,41 @@ body {
     align-items: center;
 }
 
-/* MAIN CONTENT */
-.main-content {
+/* LEFT CONTENT */
+.left-content {
     background-image: url(/img/bg2.jpg);
     opacity: 1;
     height: 80vh;
     width: 30vw;
     border-radius: 10px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.sub-content {
-    background-color: white;
+#odin-logo {
+    background-color: rgba(57, 89, 62, 0.92);
+    height: 120px;
+    padding: 5vh;
+    margin-top: 120px;
+    border-radius: 1vh;
+}
+
+#left-para {
+    display: flex;
+    color: white;
+    bottom: 20px;
+    margin-bottom: 20px;
+}
+
+#left-content a {
+    color: white;
+}
+
+/* RIGHT CONTENT */
+.right-content {
+    background-color: rgb(255, 255, 255);
     opacity: 1;
     height: 80vh;
     width: 30vw;
