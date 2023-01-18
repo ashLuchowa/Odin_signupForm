@@ -223,3 +223,7 @@ legend {
 input:focus {
     background-color: rgb(226, 226, 226);
 }
+
+#know {
+    font-style: italic;
+}
