@@ -76,7 +76,7 @@ body {
 .left-content {
     background-image: url(/img/bg2.jpg);
     min-height: 700px;
-    width: 20vw;
+    width: 350px;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -124,7 +124,7 @@ body {
     background-color: rgb(255, 255, 255);
     opacity: 1;
     min-height: 700px;
-    min-width: 40vw;
+    width: 650px;
     border-radius: 10px;
     font-size: var(--main-font-size);
 }
