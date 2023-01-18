@@ -219,3 +219,7 @@ legend {
 .bot-right-content button:hover {
     background-color: #748875;
 }
+
+input:focus {
+    background-color: rgb(226, 226, 226);
+}
