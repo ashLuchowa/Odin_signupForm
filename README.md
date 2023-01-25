@@ -1,3 +1,3 @@
 # Odin_signupForm
 
-[live preview](https://ashluchowa.github.io/Etch-a-Sketch-2/)
+[live preview](https://ashluchowa.github.io/Odin_signupForm/)
