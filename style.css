@@ -229,7 +229,7 @@ input:focus {
 }
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 920px) {
     body {
         height: 1324px;
     }
@@ -249,5 +249,60 @@ input:focus {
     
     #odin-logo {
         margin-top: 280px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    body {
+        height: 100vh;
+    }
+
+    .flex-container {
+        height: auto;
+    }
+
+    .left-content {
+        min-height: 500px;
+        width: 100vw;
+        border-radius: 0px;
+        margin-right: 0px;
+    }
+    
+    #odin-logo {
+        margin-top: 100px;
+    }
+
+    .right-content {
+        height: auto;
+        width: auto;
+        border-radius: 0px;
+        font-size: var(--main-font-size);
+    }
+    
+    .main-form {
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    #top-right-content p {
+        font-weight: 100;
+        margin-top: 40px;
+    }
+
+    #top-right-content p+p {
+        margin-bottom: 50px;
+    }
+    
+    .right-content p {
+        width: auto;
+    }
+
+    .top-form, .mid-form, .bot-form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bot-right-content {
+        margin-bottom: 100px;
     }
 }
