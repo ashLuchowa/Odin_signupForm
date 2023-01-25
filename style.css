@@ -227,3 +227,27 @@ input:focus {
 #know {
     font-style: italic;
 }
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 800px) {
+    body {
+        height: 1324px;
+    }
+
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .left-content {
+        width: 100vw;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-right: 0px;
+    }
+    
+    #odin-logo {
+        margin-top: 280px;
+    }
+}
